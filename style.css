@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&family=Kaushan+Script&family=Oswald&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font: 16px "Oswald", sans-serif;
+    margin: 0px;
+    background-color: #84E1AD;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);   
+}
+
+body h2, section h3{
+    padding-left: 55px;  /*<--*/
+}
+
+body p {
+    padding-left: 25px; /*<--*/
+    padding-right: 25px;
+}
+
+/*Barra de cima com menus*/
+header{
+    background-image: linear-gradient(to top, #1C643B, #3BD27F);
+    height: 10em;
+    margin-top: 0px;
+    padding-top: 16px;
+}
+
+.bac {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.541);
+    margin-top: 25px;
+}
+
+p{
+    font-size: 14px; /*Tamanho da fonte*/
+}
+
+
+nav ul{ /*menu*/
+    list-style: none; /*Tira as bolinhas*/
+    display: flex; /* Deixa os itens em uma linha */
+    margin-left: -40px;
+}
+
+ul a{
+    font-optical-sizing: auto;
+    color:white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+ul a:hover { /*Houver quando tocar vai ficar rosa*/
+    color: rgb(255, 0, 221);
+}
+
+/*Conteúdo*/
+
+main {
+    margin-bottom: -20px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+h2, h3 {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.301);
+    font: 18px "fonte", sans-serif;
+    color: #134228;
+}
+
+main h2{
+    padding-top: 17px;
+    margin: 0px;
+}
+
+section > p{    
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-weight: 400;
+}
+
+section h3 {
+    font-size: 15px;
+}
+
+section a {
+    color: #3BD27F;
+    text-shadow: none;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+section a:hover { 
+    color: rgb(255, 0, 221);
+}
+
+.foto{
+    padding-left: 23px;
+}
+
+.center {
+    display: block; /*Img é inline level*/
+    margin: 10px auto 10px auto;
+}
+
+/*video*/
+.video{
+    background-color: #134228;
+    padding: 10px;
+}
+
+iframe {
+    display: block;
+    margin: 25px auto 25px auto;
+}
+
+/*Extra*/
+
+.plus div{
+    max-width: 60%; 
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.26);  
+    background-color: #0cd36642;
+    margin: 2em auto 2em auto;
+    border-radius: 10px;
+    width: 59em;
+    padding-bottom: 16px;
+}
+
+/*barra*/
+.plus h3 {
+    padding: 10px;
+    margin: 0px;
+    background-color: #11b3578f;
+    font: 16px "Oswald", sans-serif;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.plus p {
+    color: black;
+    text-align: justify;
+}
+
+/*Listas*/
+
+.plus ul{
+    max-width: 280px;  /* Define um limite de largura */
+    display: block;    /* Garante que fique como bloco */
+    word-wrap: break-word; /* Quebra textos longos */
+    overflow-wrap: break-word;
+    list-style-type: "🗸 "; /* Define o marcador */
+}
+
+.li2 {
+    padding-bottom: 10px;
+}
+
+.plus a{
+    color: rgb(255, 0, 221);
+}
+
+/*Créditos*/
+
+footer {
+    max-width: 60%;
+    margin: 1px auto 1px auto;
+    width: 60em;
+}
+
+footer p {
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+}
+
+div {
+    background-color: #378a5cec;
+}
+
+div p {
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-bottom: -10px;
+}
+
+div span {
+    font-weight: 600;
+    color:  rgb(255, 0, 221);
+}
+
+/* usar isso em conjunto com o picture, carregar 3 imagems pra pc, laptop e celular
+e depois so colocar isso max-width: 60%;*/
+
+
+/*max-width: 300px; → Impede que a lista ultrapasse 300px de largura.
+display: block; → Mantém a <ul> como um bloco, garantindo que os itens fiquem empilhados verticalmente.
+word-wrap: break-word; → Se um item (<li>) contiver uma palavra muito longa, ela será quebrada para não ultrapassar a largura máxima.
+overflow-wrap: break-word; → Faz o mesmo que word-wrap, garantindo que o texto dentro dos <li> quebre corretamente.
+*/
