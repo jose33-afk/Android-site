@@ -1,6 +1,6 @@
-# Android Site
+# 💻 Android Site
 
-Este é um site simples sobre Android, feito com HTML e CSS.
+Site básico sobre Android, construído com HTML e CSS para aprendizado e prática.
 
 🔗 **Acesse aqui:** [Clique para visitar o site](https://jose33-afk.github.io/Android-site/)
 
