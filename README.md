@@ -3,8 +3,3 @@
 Site básico sobre Android, construído com HTML e CSS para aprendizado e prática. (ATENÇÃO: NÃO ADAPTADO PARA ANDROID V1).
 
 🔗 **Acesse aqui:** [Clique para visitar o site](https://jose33-afk.github.io/Android-site/)
-
----
-## 🙋‍♂️ Autor
-
-Feito por [@jose33-afk](https://github.com/jose33-afk)
